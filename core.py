@@ -48,7 +48,7 @@ def esperar_arquivo_estavel(caminho: Path, intervalo=0.5, tentativas=10):
         time.sleep(intervalo)
 
     return True  
-    #desiste de esperar e tenta mover mesmo assim
+    #desiste de esperar e tenta mover o arquivo mesmo assim
 
 
 def mover_arquivo(caminho: Path):
