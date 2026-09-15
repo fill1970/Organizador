@@ -33,7 +33,7 @@ def encontrar_destino(destino, nome):
 
 
 def esperar_arquivo_estavel(caminho: Path, intervalo=0.5, tentativas=10):
-    """Espera o tamanho do arquivo parar de mudar (evita mover arquivo incompleto)."""
+    #Espera o tamanho do arquivo parar de mudar 
     tamanho_anterior = -1
     for _ in range(tentativas):
         try:
