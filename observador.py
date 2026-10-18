@@ -5,7 +5,6 @@ import time
 
 from core import mover_arquivo
 
-
 class MeuHandler(FileSystemEventHandler):
     def on_created(self, event):
         if not event.is_directory:
