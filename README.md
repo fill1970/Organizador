@@ -1,4 +1,4 @@
-# Organizador de Arquivos
+# Organizador de Arquivos           
 
 Script em Python que organiza arquivos automaticamente em pastas por categoria
 (imagens, documentos, vídeos, músicas, slides, outros), com base na extensão.

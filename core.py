@@ -15,6 +15,7 @@ CATEGORIAS = {
     ".mkv": "videos",
     ".mp3": "musicas",
     ".pptx": "slides",
+    ".sh": "scripts",
 }
 
 
