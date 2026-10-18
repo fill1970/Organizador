@@ -25,7 +25,7 @@ pip install watchdog
 ```bash
 python main.py
 ```
-Vai pedir o caminho da pasta (Enter usa `~/TESTE` como padrão).
+Por se tratar de um teste crie uma pasta TESTE (Enter usa `~/TESTE` como padrão).
 
 ### Observar em tempo real
 ```bash
@@ -42,6 +42,7 @@ Também pede o caminho da pasta. Fica rodando até `Ctrl+C`.
 | .mp4, .mkv | videos |
 | .mp3 | musicas |
 | .pptx | slides |
+| .sh | scripts |
 | outras | outros |
 
 Arquivos duplicados não são sobrescritos — recebem sufixo `_1`, `_2`, etc.
